@@ -149,6 +149,8 @@ _CONTEXT_WINDOW_LIMITS: dict[str, int] = {
     "gemini-3.1-pro-preview": 1_048_576,
     "gemini-3.1-flash-lite-preview": 1_048_576,
     # Mistral
+    "mistral-large-4-0": 1_000_000,
+    "mistral-large-4": 1_000_000,
     "mistral-large-latest": 262_144,
     "mistral-large-2512": 262_144,
     "mistral-large-3": 262_144,
