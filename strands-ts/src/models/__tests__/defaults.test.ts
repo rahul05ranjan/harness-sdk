@@ -32,6 +32,7 @@ describe('getContextWindowLimit', () => {
     // Gemini
     expect(getContextWindowLimit('gemini-2.5-flash')).toBe(1_048_576)
     expect(getContextWindowLimit('gemini-2.5-pro')).toBe(1_048_576)
+    expect(getContextWindowLimit('gemini-4-argon')).toBe(1_048_576)
   })
 
   it('returns 1M for the current-generation Anthropic models', () => {

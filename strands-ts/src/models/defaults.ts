@@ -182,6 +182,7 @@ const CONTEXT_WINDOW_LIMITS: Record<string, number> = {
   'gemini-3.1-flash-lite': 1_048_576,
   'gemini-3.1-pro-preview': 1_048_576,
   'gemini-3.1-flash-lite-preview': 1_048_576,
+  'gemini-4-argon': 1_048_576,
 }
 
 /**

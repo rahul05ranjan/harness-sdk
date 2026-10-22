@@ -7,7 +7,9 @@ import type { Model } from '@strands-agents/sdk'
 // https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-luna.html
 // https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-openai-gpt-6-1-sol.html
 // https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-zai-glm-4-7.html
+// https://ai.google.dev/gemini-api/docs/models/gemini-4-argon
 const FALLBACK_CONTEXT_WINDOWS: ReadonlyMap<string, number> = new Map([
+  ['gemini-4-argon', 1_048_576],
   ['openai.gpt-6-astra', 1_050_000],
   ['gpt-6-astra', 1_050_000],
   ['openai.gpt-6-sol', 1_050_000],

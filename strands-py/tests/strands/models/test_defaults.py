@@ -61,6 +61,7 @@ class TestGetContextWindowLimit:
     def test_known_gemini(self):
         assert get_context_window_limit("gemini-2.5-flash") == 1_048_576
         assert get_context_window_limit("gemini-2.5-pro") == 1_048_576
+        assert get_context_window_limit("gemini-4-argon") == 1_048_576
 
     def test_strips_bedrock_cross_region_prefix(self):
         assert get_context_window_limit("us.anthropic.claude-sonnet-4-6") == 1_000_000
